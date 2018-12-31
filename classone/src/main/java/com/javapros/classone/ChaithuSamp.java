@@ -5,7 +5,7 @@ package com.javapros.classone;
  * @author p2799013
  *
  */
-public class ChaithanyaSample {
+public class ChaithuSamp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
