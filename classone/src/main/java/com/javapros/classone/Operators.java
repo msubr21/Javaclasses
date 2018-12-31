@@ -1,4 +1,4 @@
-package com.javapros.classone.operators;
+package com.javapros.classone;
 
 public class Operators {
 
