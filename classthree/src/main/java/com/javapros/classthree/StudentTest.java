@@ -2,11 +2,11 @@ package com.javapros.classthree;
 
 class Student {
 
-	private int rollNo;
-	private String studentName;
-	private int age;
-	private String spec;
-	private String university;
+	int rollNo;
+	String studentName;
+	int age;
+	String spec;
+	String university;
 
 	// Default constructor
 	public Student() {
