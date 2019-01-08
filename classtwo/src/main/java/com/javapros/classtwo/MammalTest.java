@@ -33,7 +33,7 @@ class Mammal {
 	void printMammalDetails() {
 		//String namex = "Gomathi";
 		//name = namex;
-		System.out.println("name::" + name +"Age::" +age  +"Gender::" +gender +"foodhabit::" +foodhabit);
+		System.out.println("Name::	" + name +";Age::	" +age  +";	Gender::	" +gender +";	foodhabit::	" +foodhabit +"  "+category);
 
 	}
 }
