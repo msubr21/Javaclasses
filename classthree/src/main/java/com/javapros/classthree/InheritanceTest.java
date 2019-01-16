@@ -8,9 +8,16 @@ class SuperStudent extends Student {
 		this.ability = ability;
 	}
 
-	public SuperStudent(int rollNo, String studentName, int age, String spec, String university) {
-		super(rollNo, studentName, age, spec, university);
+	public SuperStudent(int rollNo, String studentName, int age, String spec) {
+		super(rollNo, studentName, age, spec, null);
 
+	}
+
+	
+	
+	public SuperStudent(int rollNo, String studentName, int age, String spec, String university, String ability) {
+		super(rollNo, studentName, age, spec, university);
+		this.ability = ability;
 	}
 
 	void superStudentDetails() {
@@ -26,11 +33,13 @@ public class InheritanceTest {
 	public static void main(String[] args) {
 
 		// just a check when the Variables/fields are Private
-		Student student1 = new Student(226, "Murali", 30, "EEE", "SITAMS");
+		Student student1 = new Student(226, "Chaithanya", 30, "EEE", "SITAMS");
 		student1.studentDetails();
 
-		SuperStudent student2 = new SuperStudent(226, "Murali", 30, "EEE", "SITAMS");
+		SuperStudent student2 = new SuperStudent(226, "Murali", 30, "EEE", "SITAMS", "");
 		student2.superStudentDetails();
+
+		student2.studentDetails();
 
 	}
 
