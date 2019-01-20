@@ -2,13 +2,7 @@ package com.javapros.classfour;
 
 class MethodOverLoading {
 
-	// int a;
-	// int b;
-	// int c;
-	// int d;
-	// float e;
-
-	static int add(int a, int b) {
+	int add(int a, int b) {
 
 		int c = a + b;
 		return c;
@@ -32,13 +26,14 @@ public class MethodOverLoadingTest {
 
 	public static void main(String[] args) {
 
-		int sum = MethodOverLoading.add(2, 5);
+		MethodOverLoading methodOverLoading = new MethodOverLoading();
+		int sum = methodOverLoading.add(2, 5);
 		System.out.println("sum of two digits from main::" + sum);
 		
 		int sumOfThree = MethodOverLoading.add(2,3,4);
 		System.out.println("Sum of three digits:" +sumOfThree);
 		
-		float SumOfFour = MethodOverLoading.add(2, 3, 4, (float) 2.5);
+		float SumOfFour = MethodOverLoading.add(2, 3, 4, 2.5f);
 		System.out.println("Sum of Four digits:" +SumOfFour);
 
 	}

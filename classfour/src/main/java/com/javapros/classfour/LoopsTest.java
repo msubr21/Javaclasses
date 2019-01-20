@@ -20,10 +20,15 @@ public class LoopsTest {
 			++j;
 		} while (j <= 5);
 
-		int k = 1;
-		for (k = 1; k <= 10; k++) {
-
-			System.out.println(k);
+		for (int k = 1; k <= 10; k++) {
+			
+			for(int m = 1; m<=10; m++) {
+				
+				System.out.println(k+"*"+m+"="+k*m);
+				//System.out.println();
+			}
+			
+			System.out.println();
 
 		}
 
