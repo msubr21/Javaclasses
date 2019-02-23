@@ -81,6 +81,8 @@ public class AutoBoxingTest {
 		System.out.println(Byte.SIZE);
 		System.out.println(wBVal.hashCode());
 		
+		Byte.compare((byte)2, (byte)3);
+		
 		
 		// Integer.SIZE
 

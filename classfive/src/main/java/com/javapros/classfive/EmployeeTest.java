@@ -84,9 +84,30 @@ public class EmployeeTest {
 
 	public static void main(String[] args) {
 
-		
 		Employee empMurali = new Employee();
 		System.out.println(empMurali.toString());
+
+		Employee empChaithanya = new Employee(2345, 29, "Developer");
+		System.out.println();
+
+		Employee empChaithanya1 = new Employee(2345, 29, "Developer");
+
+		if (empChaithanya == empChaithanya1) {
+			System.out.println("References equal");
+		}
+
+		if (empChaithanya.equals(empChaithanya1)) {
+			System.out.println("Values equal");
+
+		}
+		System.out.println();
+
+		main();
+
+	}
+
+	public static void main() {
+		System.out.println("Overloaded Main");
 	}
 
 }
